@@ -7,12 +7,13 @@ import { Provider } from 'react-redux';
 import store from './store';
 import { RouterProvider } from 'react-router-dom';
 import routes from './routes/routes';
+import todostore from './services/stores/todoStore';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-     <Provider store={store}>
+     <Provider store={todostore}>
     <RouterProvider router={routes}>
 
    
