@@ -1,12 +1,30 @@
-import logo from './logo.svg';
+
+import { Link } from 'react-router-dom';
 import './App.css';
-import Count from './components/Count';
+
 
 function App() {
   return (
     <div className="App">
 <h1>Wellcome to React Redux</h1>
-<Count/>
+
+
+
+
+
+
+
+
+
+
+
+<h3>Explore some application</h3>
+
+<div className="links">
+<Link to='/counter' >Counter App</Link>
+<Link to='/fatch' >Data Fatch</Link>
+</div>
+
 
     </div>
   );

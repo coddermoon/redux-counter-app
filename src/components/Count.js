@@ -40,7 +40,7 @@ const handleReset = () =>{
 }
 
     return (
-        <div>
+        <div className='center'>
             <h2>Counter app</h2>
             <h3>count : {count}</h3>
             <div className="button">
